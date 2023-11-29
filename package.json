@@ -1,6 +1,6 @@
 {
   "name": "@feelinglovelynow/slug",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "https://github.com/feelinglovelynow?tab=repositories",
   "description": "Helper function to create a slug (does not require Svelte) and a Svelte component to generate slugs in the browser (requires Svelte)",
   "license": "MIT",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "esbuild": "^0.19.7",
+    "svelte": "^4.2.7",
     "typescript": "^5.3.2"
   },
   "repository": {
