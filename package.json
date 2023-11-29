@@ -22,11 +22,12 @@
     "sveltekit"
   ],
   "scripts": {
+    "watch": "pnpm tsc -w",
     "build": "bash ./build.sh",
     "cloud": "pnpm build && pnpm publish --access public ."
   },
   "devDependencies": {
-    "esbuild": "^0.19.7",
+    "esbuild": "^0.19.8",
     "svelte": "^4.2.7",
     "typescript": "^5.3.2"
   },
