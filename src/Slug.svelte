@@ -4,8 +4,8 @@
   /** @type { string } */
   let response
 
+  /** @param { any } e */
   function setResponse (e) {
-    debugger
     /** @type { HTMLInputElement } */
     const target = e.target
     response = slug(target.value)

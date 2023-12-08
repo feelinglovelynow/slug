@@ -1,6 +1,6 @@
 {
   "name": "@feelinglovelynow/slug",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "author": "https://github.com/feelinglovelynow?tab=repositories",
   "description": "Helper function to create a slug (does not require Svelte) and a Svelte component to generate slugs in the browser (requires Svelte)",
   "license": "MIT",
@@ -24,11 +24,17 @@
   "scripts": {
     "watch": "pnpm tsc -w",
     "build": "bash ./build.sh",
-    "cloud": "pnpm build && pnpm publish --access public ."
+    "cloud": "pnpm build && pnpm publish --access public .",
+    "test": "NODE_OPTIONS=--experimental-vm-modules pnpm jest"
   },
   "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@testing-library/svelte": "^4.0.5",
     "esbuild": "^0.19.8",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "svelte": "^4.2.7",
+    "svelte-jester": "^3.0.0",
     "typescript": "^5.3.2"
   },
   "repository": {
