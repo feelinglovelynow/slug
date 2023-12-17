@@ -1,14 +1,16 @@
 {
   "name": "@feelinglovelynow/slug",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "https://github.com/feelinglovelynow?tab=repositories",
   "description": "Helper function to create a slug (does not require Svelte) and a Svelte component to generate slugs in the browser (requires Svelte)",
   "license": "MIT",
   "type": "module",
   "types": "./dist/index.ts",
-  "exports": "./dist/index.js",
   "main": "./dist/index.js",
-  "svelte": "./dist/index.js",
+  "exports": {
+    "svelte": "./dist/index.js",
+    "default": "./dist/index.js"
+  },
   "files": [
     "dist",
     "tsc",
